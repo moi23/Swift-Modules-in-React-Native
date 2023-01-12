@@ -1,15 +1,13 @@
 import React from 'react';
 import {View, requireNativeComponent} from 'react-native';
-
-// import { Container } from './styles';
-
 const CoolWebView = requireNativeComponent('CoolWebView');
+
 const App = () => {
   return (
     <View>
       <CoolWebView
         style={{
-          height: 400,
+          height: '90%',
           width: '100%',
           backgoundColor: 'gray',
         }}

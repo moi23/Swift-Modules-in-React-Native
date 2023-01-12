@@ -6,6 +6,8 @@ install! 'cocoapods', :deterministic_uuids => false
 
 target 'nativelib' do
   config = use_native_modules!
+  
+  pod 'Mantis', '~> 2.3.0'
 
   # Flags change depending on the env values.
   flags = get_default_flags()
