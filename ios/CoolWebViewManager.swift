@@ -8,8 +8,6 @@ import SwiftUI
 import Foundation
 import Mantis
 
-/// aqui
-
 struct ContentView: View {
   @State var ourImage = UIImage(named:"Harley")
   @State var isShowing = false
